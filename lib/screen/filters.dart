@@ -88,7 +88,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
               value: _lactoseFreeFilterSet,
               onChanged: (isChecked) {
                 setState(() {
-                  _glutenFreeFilterSet = isChecked;
+                  _lactoseFreeFilterSet = isChecked;
                 });
               },
               title: Text(
@@ -110,7 +110,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
               value: _vegetarianFilterSet,
               onChanged: (isChecked) {
                 setState(() {
-                  _glutenFreeFilterSet = isChecked;
+                  _vegetarianFilterSet = isChecked;
                 });
               },
               title: Text(
@@ -132,7 +132,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
               value: _veganFilterSet,
               onChanged: (isChecked) {
                 setState(() {
-                  _glutenFreeFilterSet = isChecked;
+                  _veganFilterSet = isChecked;
                 });
               },
               title: Text(
