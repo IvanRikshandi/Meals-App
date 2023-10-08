@@ -33,6 +33,7 @@ class MealDetailsScreen extends ConsumerWidget {
                 ),
               );
             },
+            // implisit animasi lebih mudah
             icon: AnimatedSwitcher(
               duration: const Duration(
                 milliseconds: 300,

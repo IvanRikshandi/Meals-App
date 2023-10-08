@@ -19,13 +19,13 @@ class Categories extends StatefulWidget {
 
 class _CategoriesState extends State<Categories>
     with SingleTickerProviderStateMixin {
-  // ANIMASI
+  // ANIMASI eksplisit
   late AnimationController _animationController;
 
   @override
   void initState() {
     super.initState();
-    // INISIASI ANIMASI
+    // INISIASI ANIMASI eksplisit
     _animationController = AnimationController(
       vsync: this,
       duration: const Duration(milliseconds: 300),
@@ -77,6 +77,7 @@ class _CategoriesState extends State<Categories>
                   })
           ],
         ),
+        // Explisit Animasi
         builder: (context, child) => SlideTransition(
               position: Tween(
                 begin: const Offset(0, 0.3),
